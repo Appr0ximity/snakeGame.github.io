@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Movement Extractor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="input.css">
+  <link href="/dist/output.css" rel="stylesheet">
+  
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-400 m-0 p-0 box-border">
+    <div class="wrapper flex flex-col overflow-hidden bg-gray-600 w-[65vmin] h-[70vmin]">
+        <div class="game-details flex justify-between items-center text-white text-xl font-medium px-5 py-7">
+            <span class="score">Score: 15</span>
+            <span class="high-score">High Score: 30</span>
+        </div>
+        <div class="play-board w-full h-full bg-slate-800 grid grid-rows-30 grid-cols-30"></div>
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
